@@ -1,0 +1,32 @@
+#martyPic {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    float: right;
+    margin: 3px 3px 2px;
+}
+
+.twit {
+    width: 30px;
+}
+
+.wrapper {
+    float: left;
+    width: 100%;
+    margin-bottom: 3px;
+}
+
+@media only screen and (min-width: 768px) {
+    #body-wrap {
+        padding: 85px 100px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    #body-wrap {
+        width: 55%;
+        margin: 80px auto;
+        border: solid rgba(0, 0, 0, .15) 2px;
+    }
+}
+
